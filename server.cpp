@@ -13,8 +13,8 @@ public:
     static string generate_response(const string& request) {
         string response = "HTTP/1.1 200 OK\r\n";
         response += "Content-Type: text/html\r\n\r\n";
-        response += "<html><head><title>Simple Web Server</title></head><body>";
-        response += "<h1>Hello from Simple Web Server!</h1>";
+        response += "<html><head><title>Server</title></head><body>";
+        response += "<h1>Answer Responce Responce</h1>";
         response += "</body></html>";
         return response;
     }
